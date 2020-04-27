@@ -3,21 +3,35 @@
     <head>
         <meta charset="utf-8">
         <title>Star Trek: The final frontier</title>
-        <link rel="stylesheet" href="./css/main.min.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/png" href="./img/favicon.png">
-        <link rel="apple-touch-icon" href="./img/favicon.png" sizes="180x180">
-        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet"
+              href="./css/main.min.css">
+        <link rel="stylesheet"
+              href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+              integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+              crossorigin="anonymous">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1">
+        <link rel="icon"
+              type="image/png"
+              href="./img/favicon.png">
+        <link rel="apple-touch-icon"
+              href="./img/favicon.png"
+              sizes="180x180">
+        <meta name="apple-mobile-web-app-capable"
+              content="yes">
     </head>
     <body>
         <div class="top-container">
             <div class="nav-line">
-                <div class="nav-logo"><img src="./img/logo.svg" alt=""></div>
+                <div class="nav-logo">
+                    <img src="./img/logo.svg"
+                         alt="">
+                </div>
                 <span class="nav-btn">
                     <span class="nav-btn-text">Menu</span>
                     <span class="nav-btn-items">
-                        <span class="item"></span><span class="item"></span>
+                        <span class="item"></span>
+                        <span class="item"></span>
                     </span>
                 </span>
             </div>
@@ -25,17 +39,29 @@
                 <button name="start-game">Start</button>
                 <button name="stop-game">Stop</button>
                 <button name="pause-game">Pause</button>
-                <div class="score">Score: <span class="score-inner">0</span></div>
+                <div class="score">
+                    Score: <span class="score-inner">0</span>
+                </div>
             </div>
         </div>
         <div class="menu-container">
             <ul>
-                <li><a class="game-control-btn">Game control</a></li>
-                <li><a class="about-author-btn">About author</a></li>
-                <li><a href="https://github.com/joestalin14/startrek1.1" target="_blank" class="github-btn">View on github</a></li>
+                <li>
+                    <a class="game-control-btn">Game control</a>
+                </li>
+                <li>
+                    <a class="about-author-btn">About author</a>
+                </li>
+                <li>
+                    <a href="https://github.com/joestalin14/startrek1.1"
+                       target="_blank"
+                       class="github-btn">View on github</a>
+                </li>
             </ul>
             <div class="mc-text game-control-text">
-                <span class="mc-text-close control-text-close"><i class="fas fa-times"></i></span>
+                <span class="mc-text-close control-text-close">
+                    <i class="fas fa-times"></i>
+                </span>
                 <h4>Game control</h4>
                 <p>To move the ship to the left, press the "Arrow Left" key. To move the ship to the left in the mobile version of the game, click the button with Chevron Left.</p>
                 <p>To move the ship to the right, press the "Arrow Right" key. To move the ship to the right in the mobile version of the game, click the button with Chevron Right.</p>
@@ -43,7 +69,9 @@
                 <p>Good luck and enjoy the game!</p>
             </div>
             <div class="mc-text about-author-text">
-                <span class="mc-text-close author-text-close"><i class="fas fa-times"></i></span>
+                <span class="mc-text-close author-text-close">
+                    <i class="fas fa-times"></i>
+                </span>
                 <h4>About author</h4>
                 <p>Hello, my name is Ilya Manyukhin. I live and work in Voronezh, Russia. If you speak any Russian language, you can find out more about me on my website - <a href="http://feblog.ru" target="_blank">feblog.ru.</a> If you don't know it, you can still visit the site, maybe you will find something to your taste.</p>
                 <p>I became interested in web development about four years ago. I started making my first sites and realized that the frontend was the most interesting to me.</p>
@@ -52,20 +80,30 @@
             </div>
         </div>
         <div class="game-container">
-            <div class="game-over-field" hidden></div>
+            <div class="game-over-field"
+                 hidden></div>
             <div class="stars-field"></div>
             <div class="trash-field"></div>
             <div class="klingon-field"></div>
             <div class="ship">
-                <img src="./img/ship.png" alt="" class="ship-img">
+                <img src="./img/ship.png"
+                     alt=""
+                     class="ship-img">
             </div>
         </div>
         <div class="mobile-nav-container">
-            <button class="btn-left"><i class="fas fa-chevron-left"></i></button>
-            <button class="btn-shot"><i class="fas fa-circle"></i></button>
-            <button class="btn-right"><i class="fas fa-chevron-right"></i></button>
+            <button class="btn-left">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="btn-shot">
+                <i class="fas fa-circle"></i>
+            </button>
+            <button class="btn-right">
+                <i class="fas fa-chevron-right"></i>
+            </button>
         </div>
-        <script type="module" src="./index.js"></script>
+        <script type="module"
+                src="./index.js"></script>
         <script src="./nav.js"></script>
         <script src="./style.js"></script>
     </body>
